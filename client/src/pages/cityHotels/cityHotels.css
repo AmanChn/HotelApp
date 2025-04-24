@@ -1,0 +1,40 @@
+.cityHotelsContainer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cityTitle {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  .hotelList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .hotelItem {
+    display: flex;
+    gap: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .hotelImg {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .hotelDetails {
+    flex: 1;
+  }
+  
+  .error {
+    color: red;
+  }
